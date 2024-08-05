@@ -1,6 +1,6 @@
 ﻿using System.Data.SqlTypes;
 
-namespace ödev1
+namespace homework2
 {
     internal class Program
     {
