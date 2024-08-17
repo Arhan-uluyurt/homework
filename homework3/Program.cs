@@ -6,7 +6,8 @@
         {
             int sayi1 = 0;
             int sayi2 = 0;
-
+            
+            Console.WriteLine("İki sayı giriniz.");
 
             while (true)
             {
