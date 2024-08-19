@@ -8,7 +8,7 @@
 
             int aralik = r.Next(10, 21);
 
-            int[] elemansayis = new int[aralik];
+            int[] elemansayisi = new int[aralik];
 
             for (int i = 0; i < aralik; i++)
             {
@@ -20,7 +20,7 @@
 
                     for (j = 0; j < i; j++)
                     {
-                        if (elemansayis[j] == sayilar)
+                        if (elemansayisi[j] == sayilar)
                         {
                             break;
                         }
@@ -28,16 +28,16 @@
 
                     if (j == i)
                     {
-                        elemansayis[i] = sayilar;
+                        elemansayisi[i] = sayilar;
                         break;
                     }
                 }
 
             }
-            int enkucuk = elemansayis[0];
-            int enbuyuk = elemansayis[0];
+            int enkucuk = elemansayisi[0];
+            int enbuyuk = elemansayisi[0];
 
-            foreach (int i in elemansayis)
+            foreach (int i in elemansayisi)
             {
                 if (i < enkucuk)
                 {
@@ -49,7 +49,7 @@
                 }
             }
 
-            foreach (int s in elemansayis)
+            foreach (int s in elemansayisi)
             {
                 Console.WriteLine(s);
             }
